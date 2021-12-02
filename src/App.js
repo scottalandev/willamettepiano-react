@@ -1,10 +1,15 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Main from './components/MainComponent'
 import "./App.css";
 
 function App() {
 	return (
+        <BrowserRouter>
 		<div className="App">
-			<h1>app.js placeholder</h1>
+			<Main />
 		</div>
+        </BrowserRouter>
 	);
 }
 

@@ -1,0 +1,12 @@
+:root {
+    --header-height: 56px;
+    --footer-height: 178px;
+}
+
+main {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+footer {
+    position: relative;
+}
