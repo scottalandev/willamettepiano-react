@@ -1,11 +1,11 @@
 import React from 'react';
 
 function Home() {
-    return(
-        <>
-            Home Page
-        </>
-    )
+	return (
+		<>
+			<div style={{ height: '150vh' }}>Home Page</div>
+		</>
+	);
 }
 
 export default Home;

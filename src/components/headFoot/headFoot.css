@@ -1,0 +1,33 @@
+/* header */
+
+.header-container {
+    background-image: linear-gradient(rgb(0, 5, 0), rgb(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.75), rgb(0, 12, 0)), url('../../img/cropped-piano.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* wps-logo controls height of header */
+.wps-logo {
+    opacity: 1;
+    z-index: 100;
+
+    max-width: 100%;
+    max-height: 40vh;
+}
+
+.nav-links {
+    padding: 5vh 0 5vh 0;
+}
+
+.nav-links>a {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 0 5% 0 5%;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-links>a.active {
+    color: #fff;
+    text-decoration: none;
+}
