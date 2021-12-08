@@ -1,5 +1,42 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { wpsServices } from '../data/wpsServices';
+
+
+function RenderService({ service }) {
+	if (service) {
+		return (
+			<div className="service-card col-sm-4">
+				<h3>{service.title}</h3>
+				<p>{service.description}</p>
+				{service.price1Name != null ? (
+					<div className="service-price">
+						<h4>
+							{service.price1Name}: ${service.price1Cost}
+						</h4>
+						{service.price1Sub != null ? (
+							<div className="service-price-sub">
+								<p>({service.price1Sub})</p>
+							</div>
+						) : null}
+					</div>
+				) : null}
+				{service.price2Name != null ? (
+					<div className="service-price">
+						<h4>
+							{service.price2Name}: ${service.price2Cost}
+						</h4>
+						{service.price2Sub != null ? (
+							<div className="service-price-sub">
+								<p>({service.price2Sub})</p>
+							</div>
+						) : null}
+					</div>
+				) : null}
+			</div>
+		);
+	}
+}
 
 function Services() {
 	return (
@@ -17,23 +54,16 @@ function Services() {
 				</div>
 			</div>
 			<div className="container">
-				<div className="row">
-					<div className="col">
-							<h2>Basic Tuning</h2>
-						<p>
-							Our services include a variety of tuning options, along with some other services meant to ensure your piano sounds it’s best and is
-							a pleasure to play.
-						</p>
-						<NavLink to="/services">Our Services</NavLink>
-					</div>
-					<div className="col">
-						<NavLink to="/contact">
-							<h2>Contact</h2>
-						</NavLink>
-						<p>Get in touch with us to learn more about how we can serve you and your piano. Make your appointment today!</p>
-						<NavLink to="/contact">Get In Touch</NavLink>
-					</div>
+				<div className="row justify-content-center">
+					{wpsServices.map((service) => (
+						<RenderService service={service} />
+					))}
 				</div>
+			</div>
+			<div className="row justify-content-center">
+				<NavLink to="/contact">
+					<button>Contact Us to Schedule</button>
+				</NavLink>
 			</div>
 		</>
 	);
