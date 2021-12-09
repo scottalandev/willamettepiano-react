@@ -2,11 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { wpsServices } from '../data/wpsServices';
 
-
 function RenderService({ service }) {
 	if (service) {
 		return (
-			<div className="service-card col-sm-4">
+			<div className="service-card col-sm-6 col-md-4 col-lg-3 offset-lg-1">
 				<h3>{service.title}</h3>
 				<p>{service.description}</p>
 				{service.price1Name != null ? (
@@ -60,10 +59,12 @@ function Services() {
 					))}
 				</div>
 			</div>
-			<div className="row justify-content-center">
-				<NavLink to="/contact">
-					<button>Contact Us to Schedule</button>
-				</NavLink>
+			<div className="container">
+				<div className="row justify-content-center">
+					<NavLink to="/contact">
+                    <button className="btn btn-secondary">Contact Us to Schedule</button>
+					</NavLink>
+				</div>
 			</div>
 		</>
 	);

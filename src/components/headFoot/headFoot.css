@@ -31,3 +31,9 @@
     color: #fff;
     text-decoration: none;
 }
+
+.footer-content {
+    width: 100%;
+    padding-top: 15px;
+    margin: 20px auto 0 auto;
+}

@@ -17,12 +17,12 @@ function Home() {
                     <div className="col">
                         <NavLink to="/services"><h2>Services</h2></NavLink>
                         <p>Our services include a variety of tuning options, along with some other services meant to ensure your piano sounds it’s best and is a pleasure to play.</p>
-                        <NavLink to="/services">Our Services</NavLink>
+                        <NavLink to="/services"><button className="btn btn-secondary">Our Services</button></NavLink>
                     </div>
                     <div className="col">
                         <NavLink to="/contact"><h2>Contact</h2></NavLink>
                         <p>Get in touch with us to learn more about how we can serve you and your piano. Make your appointment today!</p>
-                        <NavLink to="/contact">Get In Touch</NavLink>
+                        <NavLink to="/contact"><button className="btn btn-secondary">Get In Touch</button></NavLink>
                     </div>
                 </div>
             </div>
