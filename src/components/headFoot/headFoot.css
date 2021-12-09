@@ -1,10 +1,9 @@
-/* header */
+/* HEADER */
 
 .header-container {
     background-image: linear-gradient(rgb(0, 5, 0), rgb(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.75), rgb(0, 12, 0)), url('../../img/cropped-piano.png');
     background-size: cover;
     background-position: center center;
-    /* max-height: 400px; */
 }
 
 /* wps-logo controls height of header */
@@ -15,11 +14,11 @@
     max-height: 35vh;
 }
 
-.nav-links {
+.head-nav {
     padding: 5vh 0 5vh 0;
 }
 
-.nav-links>a {
+.head-nav>a {
     color: darkgrey;
     text-decoration: none;
     padding: 0 5% 0 5%;
@@ -27,13 +26,41 @@
     font-size: 1.5rem;
 }
 
-.nav-links>a.active {
+.head-nav>a.active {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-content {
+
+
+/* FOOTER */
+
+.footer-container {
     width: 100%;
-    padding-top: 15px;
-    margin: 20px auto 0 auto;
+    padding: 15px 3% 20px 3%;
+    background-image: linear-gradient(rgb(0, 10, 0), rgb(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.75), rgb(0, 12, 0)), url('../../img/cropped-piano.png');
+    color: darkgrey;
+}
+
+.foot-nav>a, .foot-nav>p {
+    color: darkgrey;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.foot-nav>a.active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-text {
+    padding-top: 2vh;
+}
+
+.foot-text>a {
+    color: darkgrey;
+    font-weight: 400;
+    text-decoration: none;
 }

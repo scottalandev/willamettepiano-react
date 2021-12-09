@@ -1,15 +1,30 @@
 :root {
-    --header-height: calc(45vh + 36px);
-    --footer-height: 55px;
+    --header-height: calc(45vh + 56px);
+    --footer-height-wide: 171px;
+    --footer-height-mobile: 395px;
+
 }
 
-main {
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    margin-top: 15px;
+@media screen and (max-width: 575px) {
+    main {
+        min-height: calc(100vh - var(--header-height) - var(--footer-height-mobile));
+    }
+}
+
+@media screen and (min-width: 576px) {
+    main {
+        min-height: calc(100vh - var(--header-height) - var(--footer-height-mobile));
+    }
+}
+
+
+header {
+    margin-bottom: 20px;
 }
 
 footer {
     position: relative;
+    margin: 20px 0 0 0;
 }
 
 button {
