@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Alcubierre';
+    src:
+        local('Alcubierre'),
+        url(./fonts/Alcubierre.otf) format('opentype');
+}
+
+.App {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}

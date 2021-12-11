@@ -1,6 +1,6 @@
 :root {
     --header-height: calc(45vh + 56px);
-    --footer-height-wide: 171px;
+    --footer-height-wide: calc(152px + 2vh);
     --footer-height-mobile: 395px;
 
 }
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 576px) {
     main {
-        min-height: calc(100vh - var(--header-height) - var(--footer-height-mobile));
+        min-height: calc(100vh - var(--header-height) - var(--footer-height-wide));
     }
 }
 
