@@ -31,3 +31,8 @@
     margin: 0;
     font-size: .8rem;
 }
+
+.svc-button {
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+}

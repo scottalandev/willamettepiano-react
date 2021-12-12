@@ -51,7 +51,7 @@ function Services() {
 			<div className="container">
 				<div className="row">
 					<div className="col">
-						<h2>SERVICES</h2>
+						<h1>SERVICES</h1>
 						<p>
 							Pianos perform best when tuned consistently–twice per year is appropriate for most pianos. Regular tuning not only keeps your
 							instrument sounding beautiful, but also helps to stabilize and maintain proper pitch between tuning visits, ensuring your piano
@@ -70,7 +70,7 @@ function Services() {
 			<div className="container">
 				<div className="row justify-content-center">
 					<NavLink to="/contact">
-						<button className="btn btn-secondary">Contact Us to Schedule</button>
+						<button className="btn btn-primary svc-button">Schedule Service</button>
 					</NavLink>
 				</div>
 			</div>

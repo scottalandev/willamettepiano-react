@@ -14,8 +14,8 @@ export function Header() {
 					</NavLink>
 				</div>
 				<nav className="flex-row head-nav">
-					<NavLink to="/services">Services</NavLink>
-					<NavLink to="/contact">Contact</NavLink>
+					<NavLink to="/services">SERVICES</NavLink>
+					<NavLink to="/contact">CONTACT</NavLink>
 				</nav>
 			</div>
 		</>
@@ -34,9 +34,9 @@ export function Footer(props) {
                     <div className="row align-items-center">
                         <div className="col-sm-3 offset-sm-2 offset-md-0">
                             <nav className="nav foot-nav flex-column text-center text-sm-start">
-                                <NavLink to="/">Home</NavLink>
-                                <NavLink to="/services">Services</NavLink>
-                                <NavLink to="/contact">Contact</NavLink>
+                                <NavLink to="/">HOME</NavLink>
+                                <NavLink to="/services">SERVICES</NavLink>
+                                <NavLink to="/contact">CONTACT</NavLink>
                             </nav>
                         </div>
                         <div className="col-sm-7 foot-text">

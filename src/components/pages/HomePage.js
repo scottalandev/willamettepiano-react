@@ -7,7 +7,7 @@ function Home() {
 			<div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2>Welcome to Willamette Piano Service</h2>
+                        <h1>WELCOME TO WILLAMETTE PIANO SERVICE</h1>
                         <p>We are proud to offer a variety of piano services to Oregon’s Willamette Valley and surrounding areas. Check out our <NavLink to="/services">services</NavLink> or <NavLink to="/contact">contact us</NavLink> to create a new service appointment.</p>
                     </div>
                 </div>
