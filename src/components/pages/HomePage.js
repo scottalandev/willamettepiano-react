@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Home() {
 	return (
-		<>
+		<div className="page-content">
 			<div className="container">
                 <div className="row">
                     <div className="col">
@@ -26,7 +26,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-		</>
+		</div>
 	);
 }
 

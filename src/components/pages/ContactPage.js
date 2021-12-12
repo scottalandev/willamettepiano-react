@@ -3,7 +3,7 @@ import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 
 function Contact() {
 	return (
-		<>
+		<div className="page-content">
 			<div className="container">
 				<div className="row">
 					<div className="col">
@@ -90,7 +90,7 @@ function Contact() {
                     </Button>
 				</Form>
 			</div>
-		</>
+		</div>
 	);
 }
 
