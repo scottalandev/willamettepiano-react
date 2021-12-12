@@ -7,14 +7,14 @@ function RenderService({ service }) {
 	if (service) {
 		return (
 			<div className="service-card-holder col-md-6 col-xl-4">
-				<div className="service-card d-flex flex-column">
+				<div className="service-card">
 					<h3>{service.title}</h3>
 					<p>{service.description}</p>
 
 					{service.price1Name != null ? (
-						<div className="service-card-prices">
+						<div className="service-price-cont">
 							<div className="service-card-price1">
-								<h4>
+								<h4 className="service-price">
 									{service.price1Name}: ${service.price1Cost}
 								</h4>
 
@@ -27,7 +27,7 @@ function RenderService({ service }) {
 
 							{service.price2Name != null ? (
 								<div className="service-card-price2">
-									<h4>
+									<h4 className="service-price">
 										{service.price2Name}: ${service.price2Cost}
 									</h4>
 									{service.price2Sub != null ? (
