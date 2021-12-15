@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { wpsServices } from '../data/wpsServices';
-import './services.css';
+import './pages.css';
+
 
 function RenderService({ service }) {
 	if (service) {
@@ -70,7 +71,7 @@ function Services() {
 			<div className="container">
 				<div className="row justify-content-center">
 					<NavLink to="/contact">
-						<button className="btn btn-primary svc-button">Schedule Service</button>
+						<button className="btn svc-button">Schedule Service</button>
 					</NavLink>
 				</div>
 			</div>

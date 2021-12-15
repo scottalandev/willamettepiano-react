@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import wpsLogo from 'img/wps-logo.png';
 import './headFoot.css';
 
+
 export function Header() {
 	return (
 		<>
@@ -21,6 +22,7 @@ export function Header() {
 		</>
 	);
 }
+
 
 export function Footer(props) {
 	let year = new Date().getFullYear();

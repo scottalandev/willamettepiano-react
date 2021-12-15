@@ -1,8 +1,20 @@
 :root {
-    --header-height: calc(45vh + 56px);
-    --footer-height-wide: calc(152px + 2vh);
-    --footer-height-mobile: 395px;
+    --header-height: calc(45vh + 62px);
+    --footer-height-wide: 175px;
+    --footer-height-mobile: 284px;
 
+    --head-foot-grad-color-1: #120c06f3;
+    --head-foot-grad-color-2: #161006cf;
+    --page-bg-color: #ebf0c834;
+    --card-bg-color: #faf0e070;
+    --card-border-color: #faf0e0c0;
+    --action-btn-color: #f05028b0;
+
+
+}
+
+body {
+    background-color: var(--page-bg-color);
 }
 
 @media screen and (max-width: 575px) {
@@ -15,26 +27,19 @@
 @media screen and (min-width: 576px) and (max-width: 1400px) {
     main {
         min-height: calc(100vh - var(--header-height) - var(--footer-height-wide));
-        margin: 0 9vw 0 9vw;
+        margin: 0 8vw 0 8vw;
     }
 }
 
 @media screen and (min-width: 1401px) {
     main {
         min-height: calc(100vh - var(--header-height) - var(--footer-height-wide));
-        margin: 0 15vw 0 15vw;
+        margin: 0 12vw 0 12vw;
     }
 }
 
-
-
 header {
     margin-bottom: 20px;
-}
-
-.page-content {
-    max-width: 1350px;
-    margin: 0 auto 0 auto;
 }
 
 footer {

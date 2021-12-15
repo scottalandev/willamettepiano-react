@@ -1,5 +1,7 @@
 import React from 'react';
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import './pages.css';
+
 
 function Contact() {
 	return (
@@ -9,7 +11,7 @@ function Contact() {
 					<div className="col">
 						<h2>Contact Willamette Piano Service</h2>
 						<p>
-							Use the form below to contact us, or reach us directly at:{' '}
+							Use this form to contact us, or reach us directly at:{' '}
 							<a href="mailto:willamettepiano@gmail.com">willamettepiano@gmail.com</a>
 						</p>
 					</div>

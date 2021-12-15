@@ -1,14 +1,9 @@
-@font-face {
-    font-family: 'Alcubierre';
-    src:
-        local('Alcubierre'),
-        url(../../fonts/Alcubierre.otf) format('opentype');
-}
-
 /* HEADER */
 
 .header-container {
-    background-image: linear-gradient(rgb(0, 5, 0), rgb(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.75), rgb(0, 12, 0)), url('../../img/cropped-piano.png');
+    background-image: 
+        linear-gradient(var(--head-foot-grad-color-1), var(--head-foot-grad-color-2), var(--head-foot-grad-color-1)), 
+        url('../../img/cropped-piano.png');
     background-size: cover;
     background-position: center center;
 }
@@ -29,9 +24,7 @@
     color: darkgrey;
     text-decoration: none;
     padding: 0 5% 0 5%;
-    /* font-weight: 600; */
-    font-size: 1.5rem;
-    font-family: 'Alcubierre';
+    font-size: 1.75rem;
 }
 
 .head-nav>a.active {
@@ -40,13 +33,12 @@
 }
 
 
-
 /* FOOTER */
 
 .footer-container {
     width: 100%;
     padding: 15px 3% 20px 3%;
-    background-image: linear-gradient(rgb(0, 10, 0), rgb(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.75), rgb(0, 12, 0)), url('../../img/cropped-piano.png');
+    background-image: linear-gradient(var(--head-foot-grad-color-1), var(--head-foot-grad-color-2), var(--head-foot-grad-color-1)), url('../../img/cropped-piano.png');
     color: darkgrey;
 }
 
@@ -54,12 +46,7 @@
     color: darkgrey;
     text-decoration: none;
     padding: 5px 0 5px 0;
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-.foot-nav>a {
-    font-family: 'Alcubierre';
+    font-size: 1.25rem;
 }
 
 .foot-nav>a.active {
@@ -73,6 +60,5 @@
 
 .foot-text>a {
     color: darkgrey;
-    font-weight: 400;
     text-decoration: none;
 }
