@@ -70,8 +70,8 @@ function Services() {
 			</div>
 			<div className="container">
 				<div className="row justify-content-center">
-					<NavLink to="/contact">
-						<button className="btn svc-button">Schedule Service</button>
+					<NavLink to="/contact" className="svc-button">
+						Schedule Service
 					</NavLink>
 				</div>
 			</div>

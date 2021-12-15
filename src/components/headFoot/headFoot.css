@@ -42,6 +42,10 @@
     color: darkgrey;
 }
 
+.foot-logo {
+    height: 120px;
+}
+
 .foot-nav>a, .foot-nav>p {
     color: darkgrey;
     text-decoration: none;

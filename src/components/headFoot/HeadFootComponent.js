@@ -30,7 +30,7 @@ export function Footer(props) {
 		<div className="container-fluid footer-container">
 			<div className="row align-items-center">
 				<div className="d-none d-md-inline col-md-4">
-					<img src={wpsLogo} style={{ height: '100px' }} alt="Willamette Piano Service logo" />
+					<img src={wpsLogo} className="foot-logo" alt="Willamette Piano Service logo" />
 				</div>
                 <div className="col col-md-8">
                     <div className="row align-items-center">
