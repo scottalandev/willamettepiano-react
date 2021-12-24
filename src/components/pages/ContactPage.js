@@ -3,13 +3,13 @@ import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 import './pages.css';
 
 const postContactData = (contactData) => {
-    alert(`postContactData receives: ` + JSON.stringify(contactData));
+    // alert(`postContactData receives: ` + JSON.stringify(contactData));
 }
 
 function ContactForm(props) {
 	const [contactData, setContactData] = useState({});
 	const submit = (e) => {
-		alert(`Form Submitted. Current state of 'contactData' is: ` + JSON.stringify(contactData));
+		// alert(`Form Submitted. Current state of 'contactData' is: ` + JSON.stringify(contactData));
 		e.preventDefault();
 		props.postContactData(contactData)
 	};
